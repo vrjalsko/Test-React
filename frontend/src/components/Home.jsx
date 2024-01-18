@@ -21,7 +21,7 @@ const Home = () => {
       {/* Contenu principal */}
       <div className="container max-w-md mx-auto w-full mt-16">
 
-      <h6 className="text-xl text-gray-750 font-bold p-4">16 Septembre 2023</h6>
+      <h5 className="text-sm text-gray font-bold p-2">16 Septembre 2023</h5>
 
         {/* Carte avec image */}
         <div className="max-w-md mx-auto bg-white rounded-xl overflow-hidden w-full shadow-md">
@@ -69,10 +69,48 @@ const Home = () => {
         </div>
         <br/>
 
+        <div className="max-w-md mx-auto bg-white rounded-xl overflow-hidden w-full shadow-md">
+          {/* Titre de la carte */}
+        
+          {/* Contenu de la carte */}
+          <div className="p-4">
+            <h6 className="text-pink-400 text-pink">
+               
+            </h6>
+          </div>
+        </div>
+        
 
-    </div>
+        <h5 className="text-sm text-gray font-bold p-2">Information & Documents</h5>
+        <div className="max-w-md mx-auto bg-white rounded-xl overflow-hidden w-full shadow-md">
+          {/* Titre de la carte */}
+        
+          {/* Contenu de la carte */}
+          <div className="p-4">
+            <h6 className="text-pink-400 text-pink">
+                
+            </h6>
+          </div>
 
+        </div>
+
+        <h5 className="text-sm text-gray font-bold p-2">Notes</h5>
+        <div className="max-w-md mx-auto bg-white rounded-xl overflow-hidden w-full shadow-md">
+          {/* Titre de la carte */}
+        
+          {/* Contenu de la carte */}
+          <div className="p-4">
+            <h6 className="text-pink-400 text-pink">
+                
+            </h6>
+          </div>
+
+        </div>
+        <br/>
     
+        <button className='bg-purple text-white shadow-md rounded-xl items-right'>Nouvelle liste</button>
+        
+    </div>
     
   )
 }
