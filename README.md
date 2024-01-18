@@ -28,3 +28,12 @@ cd frontend
 npm install 
 npm run dev
 
+j'utilise tailwindcss 
+npm i tailwindcss
+npx tailwindcss init -p
+
+En configurant tailwind.config.js
+
+
+
+
